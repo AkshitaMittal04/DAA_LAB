@@ -1,5 +1,6 @@
 ## INDEX
 [Program 1- Write a program to show linear search in python.](#Program-1)
+
 [Program 2- Write a program to show binary search in python.](#Program-2)
 
 
