@@ -32,7 +32,7 @@ if result != -1:
 else:
     print("Element not found")
 ```
-##Program-2
+## Program-2
 ```
 def binary_search(arr,key):
     low=0
@@ -55,7 +55,7 @@ if result!=-1:
 else:
     print("Element not found")
 ```
-##Program-10
+## Program-10
 ```
 import matplotlib.pyplot as plt
 
@@ -70,7 +70,7 @@ plt.show()
 ```
 <img width="801" height="601" alt="image" src="https://github.com/user-attachments/assets/b9682426-1f07-4d31-addc-70744d2f0ee3" />
 
-##Program-11
+## Program-11
 ```
 import matplotlib.pyplot as plt
 import math
@@ -95,7 +95,7 @@ plt.show()
 ```
 <img width="796" height="607" alt="image" src="https://github.com/user-attachments/assets/1c9d77c0-637f-4825-b582-1e959835cb53" />
 
-##Program-12
+## Program-12
 ```
 import math
 
@@ -116,7 +116,7 @@ print(math.fabs(-7))
 ```
 <img width="447" height="293" alt="image" src="https://github.com/user-attachments/assets/be245a0d-6020-4d8c-94f2-0bb7ac2ab931" />
 
-##Program-13
+## Program-13
 ```
 arr = [10, 20, 30]
 
