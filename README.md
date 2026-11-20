@@ -3,6 +3,8 @@
 
 [Program 2- Write a program to show binary search in python.](#Program-2)
 
+[Program 10- Write a Python program to plot a line graph using the given x and y values.](Program-10)
+
 
 
 
@@ -48,4 +50,18 @@ if result!=-1:
 else:
     print("Element not found")
 ```
+##Program-10
+```
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 15, 30, 25]
+
+plt.plot(x, y)
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.title("Simple Line Graph")
+plt.show()
+```
+<img width="801" height="601" alt="image" src="https://github.com/user-attachments/assets/b9682426-1f07-4d31-addc-70744d2f0ee3" />
 
