@@ -5,6 +5,7 @@
 
 [Program 10- Write a Python program to plot a line graph using the given x and y values.](Program-10)
 
+[Program 11- Write a Python program to plot multiple graphs for log(n), n, n log(n), and n².](Program-11)
 
 
 
@@ -64,4 +65,30 @@ plt.title("Simple Line Graph")
 plt.show()
 ```
 <img width="801" height="601" alt="image" src="https://github.com/user-attachments/assets/b9682426-1f07-4d31-addc-70744d2f0ee3" />
+
+##Program-11
+```
+import matplotlib.pyplot as plt
+import math
+
+x = [1, 2, 3, 4, 5]
+
+y1 = [math.log(i) for i in x]
+y2 = [i for i in x]
+y3 = [i * math.log(i) for i in x]
+y4 = [i * i for i in x]
+
+plt.plot(x, y1, marker='o')
+plt.plot(x, y2, marker='o')
+plt.plot(x, y3, marker='o')
+plt.plot(x, y4, marker='o')
+
+plt.title("Line Graph")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.grid(True)
+plt.show()
+```
+<img width="796" height="607" alt="image" src="https://github.com/user-attachments/assets/1c9d77c0-637f-4825-b582-1e959835cb53" />
+
 
