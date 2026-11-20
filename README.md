@@ -11,6 +11,9 @@
 
 [Program-13 Write a Python program to demonstrate constant time complexity.](Program-13)
 
+[Program-14 Write a Python program to demonstrate logarithmic time complexity.](Program-14)
+
+[Program-15 Write a Python program to demonstrate square root time complexity.](Program-15)
 
 
 ## Program-1
@@ -123,6 +126,26 @@ arr = [10, 20, 30]
 print(arr[0])
 ```
 <img width="442" height="120" alt="image" src="https://github.com/user-attachments/assets/9c19cdef-2f14-47ee-a9ce-6823155c85aa" />
+
+## Program -14
+```
+n = int(input("Enter n: "))
+
+while n > 1:
+    n = n // 2
+```
+<img width="381" height="120" alt="image" src="https://github.com/user-attachments/assets/37223fcd-55f6-404a-ab35-872b7957ce12" />
+
+## Program-15
+```
+n = int(input("Enter n: "))
+
+i = 1
+
+while i * i <= n:
+    i += 1
+```
+
 
 
 
