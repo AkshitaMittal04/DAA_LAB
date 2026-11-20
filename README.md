@@ -7,6 +7,10 @@
 
 [Program 11- Write a Python program to plot multiple graphs for log(n), n, n log(n), and n².](Program-11)
 
+[Program-12 Write a Python program to demonstrate different functions of the math module.](Program-12)
+
+[Program-13 Write a Python program to demonstrate constant time complexity.](Program-13)
+
 
 
 ## Program-1
@@ -90,5 +94,36 @@ plt.grid(True)
 plt.show()
 ```
 <img width="796" height="607" alt="image" src="https://github.com/user-attachments/assets/1c9d77c0-637f-4825-b582-1e959835cb53" />
+
+##Program-12
+```
+import math
+
+print(math.sqrt(25))
+print(math.pow(2, 3))
+print(math.ceil(4.2))
+print(math.floor(4.8))
+print(math.factorial(5))
+print(math.log(10))
+print(math.log10(100))
+print(math.sin(math.pi/2))
+print(math.cos(0))
+print(math.tan(0))
+print(math.radians(180))
+print(math.degrees(math.pi))
+print(math.gcd(12, 18))
+print(math.fabs(-7))
+```
+<img width="447" height="293" alt="image" src="https://github.com/user-attachments/assets/be245a0d-6020-4d8c-94f2-0bb7ac2ab931" />
+
+##Program-13
+```
+arr = [10, 20, 30]
+
+print(arr[0])
+```
+<img width="442" height="120" alt="image" src="https://github.com/user-attachments/assets/9c19cdef-2f14-47ee-a9ce-6823155c85aa" />
+
+
 
 
